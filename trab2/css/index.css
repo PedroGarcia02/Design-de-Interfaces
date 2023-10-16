@@ -1,0 +1,99 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.cabecalho {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header {
+    padding-bottom: 55px;
+}
+
+.cabecalho a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.cabecalho a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.cabecalho a.ativo {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+footer p {
+    display: inline-flex;
+    padding-right: 20px;
+    font-size: 17px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#enviar {
+    width: 100%;
+    background-color: seagreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background-color: green;
+    transition: all 0.3s ease;
+}
+
+div {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
