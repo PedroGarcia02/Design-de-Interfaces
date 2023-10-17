@@ -12,7 +12,7 @@
 }
 
 header {
-    padding-bottom: 55px;
+    padding-bottom: 80px;
 }
 
 .cabecalho a {
@@ -20,7 +20,7 @@ header {
     color: whitesmoke;
     text-align: center;
     transition: all 0.3s ease;
-    padding: 20px 20px;
+    padding: 17px 17px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -35,7 +35,7 @@ header {
     color: white;
 }
 
-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -43,10 +43,9 @@ footer {
     background-color: #333;
     color: whitesmoke;
     text-align: center;
-
 }
 
-footer p {
+.footer p {
     display: inline-flex;
     padding-right: 20px;
     font-size: 17px;
@@ -88,7 +87,7 @@ input, select {
     transition: all 0.3s ease;
 }
 
-div {
+.cadastro {
     border-radius: 5px;
     background-color: whitesmoke;
     padding: 20px;
@@ -97,3 +96,92 @@ div {
 body{
     font-family: 'Lato', sans-serif;
 }
+
+footer{
+    padding-top: 80px;
+}
+
+.imagens{
+    display: inline-flex;
+    overflow: hidden;
+    padding-left: 2%;
+}
+
+.imagens img{
+    width: 50%;
+    padding-left: 10px;
+
+}
+
+.h1{
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+}
+
+.quadro{
+    background: linear-gradient(90deg, rgb(165, 165, 165), rgb(204, 204, 204) 100%);
+    padding: 3%;
+    font-size: 1.8vw;
+    color: whitesmoke;
+    margin-inline-start: 15%;
+    display: inline-flex;
+    margin-bottom: 2%;
+}
+
+.jogos{
+    display: inline;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .h3{
+    text-align: center;
+  }
+
+  .parceiros {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+  }
+
+  .parceiros img{
+    padding-left: 20px;
+    height: 180px;
+    width: 320px;
+  }
+
+  .quadro img{
+    width: 200px;
+    height: 305px;
+    padding-right: 25px;
+  }
+
+  .comprar{
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  }
