@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header>
+
+      <nav id="navbar-example2" class="navbar fixed-top bg-light px-3 mb-3">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#carrosel">Carrosel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Galeria">Galeria</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#tabela">Tabela</a></li>
+              <li><a class="dropdown-item" href="#banner">Banner</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#parceiros">Parceiros</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      </nav>
+
+    </header>
+
+    <div id="carrosel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="pictures/baldurs.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="pictures/spider3.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h1 id="Galeria" class="h1">Loja de games</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <figure class="figure text-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa2">
+            <img src="pictures/loja3.jpg" class="figure-img img-fluid" alt="...">
+          </button>
+            <figcaption class="figure-caption text-center">Loja Principal.</figcaption>
+          </figure>
+        </div>
+        <div class="col-sm">
+          <figure class="figure text-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="pictures/loja4.jpg" class="figure-img img-fluid" alt="...">
+          </button>
+            <figcaption class="figure-caption text-center">Loja no Interior.</figcaption>
+          </figure>
+        </div>
+        <div class="col-sm">
+          <figure class="figure text-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa3">
+            <img src="pictures/loja5.jpg" class="figure-img img-fluid" alt="...">
+          </button>
+            <figcaption class="figure-caption text-center">Loja no Interior.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Loja no Interior.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="pictures/loja4.jpg" class="figure-img img-fluid" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel2">Loja Principal.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="pictures/loja3.jpg" class="figure-img img-fluid" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel3">Loja Principal.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="pictures/loja5.jpg" class="figure-img img-fluid" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <h2 class="h2">Confira alguns dos jogos disponiveis</h2>
+
+
+    <table id="tabela" class="table table-dark table-striped">
+      <thead>
+        <tr>
+          <th>Jogo</th>
+          <th>Desenvolvedora</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Super Mario Wonder</td>
+          <td>Nintendo</td>
+          <td>299,90</td>
+        </tr>
+        <tr>
+          <td>God of War Ragnarok</td>
+          <td>Santa Monica</td>
+          <td>249,90</td>
+        </tr>
+        <tr>
+          <td>Starfield</td>
+          <td>Bethesda</td>
+          <td>299,90</td>
+        </tr>
+        <tr>
+          <td>Zelda Tears Of The Kingdom</td>
+          <td>Nintendo</td>
+          <td>349,90</td>
+        </tr>
+        <tr>
+          <td>Spider Man 2</td>
+          <td>Sony</td>
+          <td>299,90</td>
+        </tr>
+      </tbody>
+      </table>
+
+      <img src="pictures/red.jpg" id="banner" class="img-fluid rounded mx-auto d-block slide-in-fwd-center" alt="...">
+
+      <h3 class="h3">Confira alguns dos nossos parceiros</h3>
+
+      <div class="container" id="parceiros">
+        <div class="row">
+          <div class="col-sm">
+            <figure class="figure text-center">
+              <img src="pictures/nintendo2.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">Nintendo.</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm">
+            <figure class="figure text-center">
+              <img src="pictures/sony2.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">Sony.</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm">
+            <figure class="figure text-center">
+              <img src="pictures/xbox2.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">Xbox.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
